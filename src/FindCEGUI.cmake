@@ -41,7 +41,10 @@ else (CEGUI_LIBRARIES AND CEGUI_INCLUDE_DIRS)
 
     find_library(CEGUI_LIBRARY
         NAMES
+            CEGUIBase
             CEGUIBase-0
+            CEGUIBase-0.7.6
+            CEGUIBase-0.8.4
         PATHS
             /usr/lib
             /usr/local/lib
